@@ -12,7 +12,7 @@ public class WebClientConfig {
     public WebClient webClient() {
 
         return WebClient.builder()
-                .baseUrl("http://localhost:8001")
+                .baseUrl("https://python-modelo.onrender.com")
                 .build();
 
     }
